@@ -53,23 +53,12 @@ The project follows the complete machine learning pipeline:
 
 ## Best Model
 
-The **Tuned Logistic Regression** model was selected as the best business-balanced model.
+The **Tuned Random Forest** model was selected as the best business-balanced model.
 
-Although other models were also evaluated, Logistic Regression provided the best balance between interpretability and performance. This is important in HR analytics because the model should not only predict attrition but also help explain the reasons behind employee attrition risk.
-
----
-
-## Test Performance
-
-| Metric | Score |
-|---|---:|
-| Accuracy | 0.786 |
-| Precision | 0.400 |
-| Recall | 0.681 |
-| F1 Score | 0.504 |
-| ROC-AUC | 0.809 |
+Although other models were also evaluated, Random Forest provided the best balance between interpretability and performance. This is important in HR analytics because the model should not only predict attrition but also help explain the reasons behind employee attrition risk.
 
 ---
+
 
 ## Why This Model Was Chosen
 
